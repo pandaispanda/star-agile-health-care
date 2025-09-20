@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: star-agile-insurance-project
+  name: star-agile-healthcare-project
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: star-agile-insurance-project
+      app: star-agile-healthcare-project
   template:
     metadata:
       labels:
-        app: star-agile-insurance-project
+        app: star-agile-healthcare-project
     spec:
       containers:
-      - name: star-agile-insurance-project
-        image: snehakamble/star-agile-insurance-project:latest
+      - name: star-agile-healthcare-project
+        image: snehakamble/star-agile-healthcare-project:latest
         ports:
         - containerPort: 8081
