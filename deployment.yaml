@@ -16,4 +16,4 @@ spec:
       - name: capstone-project-healthcare
         image: dockerhub2001/capstone-project-healthcare:latest
         ports:
-        - containerPort: 8081
+        - containerPort: 8082
